@@ -22,7 +22,7 @@
 </div>
 
 <div *ngIf="movies" class="movies">
-  <mat-card class="example-card" *ngFor="let movie of movies; let f = first; let l = last">
+  <mat-card class="card" *ngFor="let movie of movies; let f = first; let l = last">
       <mat-card-header>
           <mat-card-title>Title: {{movie.Title}}</mat-card-title>
           <mat-card-subtitle><strong>Year: </strong>{{movie.Year}}</mat-card-subtitle>

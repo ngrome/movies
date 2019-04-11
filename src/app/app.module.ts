@@ -12,13 +12,16 @@ import { HomeComponent } from './home/home.component';
 import { IosInstallComponent } from './ios-install/ios-install.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+import { UpdateService } from './shared/update.service';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     HomeComponent,
-    IosInstallComponent
+    IosInstallComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
@@ -29,7 +32,7 @@ import { HttpClientModule } from '@angular/common/http';
     ReactiveFormsModule,
     HttpClientModule
   ],
-  providers: [],
+  providers: [UpdateService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

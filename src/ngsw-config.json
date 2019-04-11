@@ -1,15 +1,15 @@
 {
   "index": "/index.html",
-  "dataGroups": [{
+  "dataGroups": [
+    {
     "name": "api-freshness",
     "urls": [
-      "https://omdbapi.com/*"
+      "https://omdbapi.com/**"
     ],
     "cacheConfig": {
       "strategy": "freshness",
       "maxSize": 100,
-      "maxAge": "3d",
-      "timeout": "10s"
+      "maxAge": "3d"
     }
   }],
   "assetGroups": [

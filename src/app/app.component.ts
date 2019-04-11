@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { UpdateService } from './shared/update.service';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'ngrome-movies';
+
+  constructor(private appUpdate: UpdateService){
+
+  }
+
+  onInit(){
+
+  }
+
 }
