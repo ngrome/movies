@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1554981609956,
+  "timestamp": 1555000932043,
   "index": "https://ngrome.github.io/movies/index.html",
   "assetGroups": [
     {
@@ -11,7 +11,7 @@
         "https://ngrome.github.io/movies/es2015-polyfills.1e04665e16f944715fd2.js",
         "https://ngrome.github.io/movies/favicon.ico",
         "https://ngrome.github.io/movies/index.html",
-        "https://ngrome.github.io/movies/main.96f2273cd5c332bee1a4.js",
+        "https://ngrome.github.io/movies/main.6c1c3d076c0f472fe9d7.js",
         "https://ngrome.github.io/movies/polyfills.8bbb231b43165d65d357.js",
         "https://ngrome.github.io/movies/runtime.26209474bfa8dc87a77c.js",
         "https://ngrome.github.io/movies/styles.25a636b54b3e4a3f2976.css"
@@ -39,12 +39,11 @@
     {
       "name": "api-freshness",
       "patterns": [
-        "https:\\/\\/omdbapi\\.com\\/[^/]*"
+        "https:\\/\\/omdbapi\\.com\\/.*"
       ],
       "strategy": "freshness",
       "maxSize": 100,
       "maxAge": 259200000,
-      "timeoutMs": 10000,
       "version": 1
     }
   ],
@@ -59,8 +58,8 @@
     "https://ngrome.github.io/movies/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
     "https://ngrome.github.io/movies/es2015-polyfills.1e04665e16f944715fd2.js": "b7a81c61d32b0b12737f0c13f45973ba391cd7f9",
     "https://ngrome.github.io/movies/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
-    "https://ngrome.github.io/movies/index.html": "1fe80e4ef08600a4066abf358196f669dde2ff8f",
-    "https://ngrome.github.io/movies/main.96f2273cd5c332bee1a4.js": "b92c2d55e0ecb70093a9a8d87a71c9d1cb6680c5",
+    "https://ngrome.github.io/movies/index.html": "efa883ad39301a5988c424b089f9086db0c7fe7f",
+    "https://ngrome.github.io/movies/main.6c1c3d076c0f472fe9d7.js": "8cdf303ddadbc718cd16cb79ea68b79b08eb9e28",
     "https://ngrome.github.io/movies/polyfills.8bbb231b43165d65d357.js": "ffa449995bf2eba2ccd0a002417214f7eb75e7b5",
     "https://ngrome.github.io/movies/runtime.26209474bfa8dc87a77c.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
     "https://ngrome.github.io/movies/styles.25a636b54b3e4a3f2976.css": "ae443e48948e362cf8675cf6010a89e405cdfa77"
