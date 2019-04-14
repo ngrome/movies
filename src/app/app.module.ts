@@ -12,8 +12,9 @@ import { HomeComponent } from './home/home.component';
 import { IosInstallComponent } from './ios-install/ios-install.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
-import { UpdateService } from './shared/update.service';
 import { ContactComponent } from './contact/contact.component';
+import { UpdateService } from './shared/services/update.service';
+import { OfflineService } from './shared/services/offline.service';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,7 @@ import { ContactComponent } from './contact/contact.component';
     ReactiveFormsModule,
     HttpClientModule
   ],
-  providers: [UpdateService],
+  providers: [UpdateService, OfflineService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

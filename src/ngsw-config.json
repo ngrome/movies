@@ -2,16 +2,18 @@
   "index": "/index.html",
   "dataGroups": [
     {
-    "name": "api-freshness",
-    "urls": [
-      "https://omdbapi.com/**"
-    ],
-    "cacheConfig": {
-      "strategy": "freshness",
-      "maxSize": 100,
-      "maxAge": "3d"
+      "name": "api-performance",
+      "urls": [
+        "https://www.omdbapi.com"
+      ],
+      "cacheConfig": {
+        "strategy": "performance",
+        "maxSize": 100,
+        "maxAge": "7d",
+        "timeout": "10s"
+      }
     }
-  }],
+  ],
   "assetGroups": [
     {
       "name": "app",
@@ -29,6 +31,10 @@
       "installMode": "lazy",
       "updateMode": "prefetch",
       "resources": {
+        "urls": [
+          "https://m.media-amazon.com/**/*",
+          "https://ia.media-imdb.com/**/*"
+        ],
         "files": [
           "/assets/**",
           "/*.(eot|svg|cur|jpg|png|webp|gif|otf|ttf|woff|woff2|ani)"

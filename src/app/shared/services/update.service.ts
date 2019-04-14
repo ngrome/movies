@@ -11,7 +11,7 @@ export class UpdateService {
         'New Update Available',
         'Reload',
         {
-          duration: 3000
+          duration: 6000
         }
       );
 

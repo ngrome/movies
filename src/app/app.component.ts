@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
-import { UpdateService } from './shared/update.service';
+import { OfflineService } from './shared/services/offline.service';
+import { UpdateService } from './shared/services/update.service';
 
 @Component({
   selector: 'app-root',
@@ -8,7 +9,7 @@ import { UpdateService } from './shared/update.service';
 })
 export class AppComponent {
 
-  constructor(private appUpdate: UpdateService){
+  constructor(private appUpdate: UpdateService, private appNetwork: OfflineService){
 
   }
 
