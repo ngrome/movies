@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1555321492003,
+  "timestamp": 1555325143179,
   "index": "https://ngrome.github.io/movies/index.html",
   "assetGroups": [
     {
@@ -46,9 +46,9 @@
         "https:\\/\\/omdbapi\\.com\\/.*"
       ],
       "strategy": "performance",
-      "maxSize": 100,
+      "maxSize": 1000,
       "maxAge": 604800000,
-      "timeoutMs": 10000,
+      "timeoutMs": 60000,
       "version": 1
     }
   ],
