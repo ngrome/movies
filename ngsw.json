@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1555319496271,
+  "timestamp": 1555321492003,
   "index": "https://ngrome.github.io/movies/index.html",
   "assetGroups": [
     {
@@ -43,7 +43,7 @@
       "name": "api-performance",
       "patterns": [
         "\\/",
-        "https:\\/\\/ngrome\\.github\\.io\\/movies\\/omdbapi\\.com\\/"
+        "https:\\/\\/omdbapi\\.com\\/.*"
       ],
       "strategy": "performance",
       "maxSize": 100,
