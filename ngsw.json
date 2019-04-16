@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1555328218805,
+  "timestamp": 1555413826197,
   "index": "https://ngrome.github.io/movies/index.html",
   "assetGroups": [
     {
@@ -38,20 +38,7 @@
       ]
     }
   ],
-  "dataGroups": [
-    {
-      "name": "api-performance",
-      "patterns": [
-        "\\/",
-        "https:\\/\\/omdbapi\\.com\\/.*"
-      ],
-      "strategy": "performance",
-      "maxSize": 1000,
-      "maxAge": 604800000,
-      "timeoutMs": 60000,
-      "version": 1
-    }
-  ],
+  "dataGroups": [],
   "hashTable": {
     "https://ngrome.github.io/movies/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
     "https://ngrome.github.io/movies/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
